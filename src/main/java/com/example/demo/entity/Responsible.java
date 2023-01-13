@@ -11,7 +11,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-
+//yassinTalssis
+//yassinTalssis
 @Entity
 @Data
 @AllArgsConstructor
@@ -31,7 +32,7 @@ public class Responsible {
 		@Column(length = 45 , nullable = true)
 		private String password=this.firstName+this.lastName;
 
-		
+		//yassinTalssis
 		@ManyToOne
 		@JoinColumn(name = "etablissement_id")
 		private Etablissement etablissementt;
@@ -46,7 +47,7 @@ public class Responsible {
 			this.password = firstName+"@"+lastName;
 			//this.etablissementt = etablissementt;
 		}
-		
+		//yassinTalssis
 		
 		public long getId() {
 			return id;

@@ -14,11 +14,10 @@ import com.example.demo.entity.Responsible;
 import com.example.demo.entity.Student;
 import com.example.demo.service.ResponsibleServiceImpl;
 
-
+//yassinTalssis
 @Controller
 public class ResponsibleController {
-	//Aissa chbaba
-
+	///yassinTalssis
 	
 	@Autowired
 	private ResponsibleServiceImpl repo;

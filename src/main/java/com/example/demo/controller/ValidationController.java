@@ -12,12 +12,12 @@ import com.example.demo.entity.Validation;
 import com.example.demo.service.ValidationServiceImpl;
 
 
-
+//yassinTalssis
 @Controller
 public class ValidationController {
 			
 	
-	//Aissa chbaba
+	//yassinTalssis
 	@Autowired
 	private ValidationServiceImpl repo;
 	

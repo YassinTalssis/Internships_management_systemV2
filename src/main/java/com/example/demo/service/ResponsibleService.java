@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.demo.entity.Responsible;
 
-
+//yassinTalssis
 public interface ResponsibleService {
 	
 		List<Responsible> getAllResponsibles();	

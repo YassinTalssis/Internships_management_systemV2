@@ -6,3 +6,4 @@ import com.example.demo.entity.User;
 public interface ValidationRepository extends JpaRepository<User, Integer> {
 
 }
+//yassinTalssis

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @Controller
 @RequestMapping("/user")
 public class UserController {
-			
+	//yassinTalssis
 	@RequestMapping("/index")
 	public String dashboard() {
 		

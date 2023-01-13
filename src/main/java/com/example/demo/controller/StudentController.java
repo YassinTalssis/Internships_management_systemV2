@@ -13,14 +13,14 @@ import com.example.demo.service.StudentServiceImpl;
 
 @Controller
 public class StudentController {
-	//Aissa chbaba
+	//yassinTalssis
 	@Autowired
 	private StudentServiceImpl repo;
 	public StudentController(StudentServiceImpl repo) {
 		super();
 		this.repo = repo;
 	}
-
+	//yassinTalssis
 	@GetMapping("/responsible/students/new")
 	public String showNewStudentForm(Model model) {
 		//List<Departement> listDepartements =departementRepo.findAll();

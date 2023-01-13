@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Validation {
-	//Aissa 
+	//yassinTalssis
 		@Id
 		@GeneratedValue
 		private int id;
@@ -61,5 +61,5 @@ public class Validation {
 		public void setEmail(String email) {
 			this.email = email;
 		}
-		
+	//yassinTalssis	
 }

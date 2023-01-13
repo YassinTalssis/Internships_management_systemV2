@@ -18,10 +18,10 @@ import com.example.demo.service.EtablissementServiceImpl;
 
 
 
-
+//yassinTalssis
 @Controller
 public class EtablissementController {
-	//Aissa chbaba
+	//yassinTalssis
 	@Autowired
 	private EtablissementServiceImpl repo;
 

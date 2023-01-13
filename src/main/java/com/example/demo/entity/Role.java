@@ -2,7 +2,7 @@ package com.example.demo.entity;
 
 
 import javax.persistence.*;
- 
+ //yassinTalssis
 @Entity
 @Table(name = "roles")
 public class Role {
@@ -24,6 +24,6 @@ public class Role {
 	public void setId(Integer id) {
 		this.id = id;
 	}
-     
+     //yassinTalssis
     // remaining getters and setters   
 }

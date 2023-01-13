@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import com.example.demo.entity.Responsible;
 import com.example.demo.repository.ResponsibleRepository;
 
-
+//yassinTalssis
 @Service
 public class ResponsibleServiceImpl implements ResponsibleService {
 	
@@ -38,7 +38,7 @@ public class ResponsibleServiceImpl implements ResponsibleService {
 	public Responsible updateResponsible(Responsible student) {
 		return responsibleRepository.save(student);
 	}
-
+//yassinTalssis
 	@Override
 	public void deleteResponsibleById(long id) {
 		responsibleRepository.deleteById(id);	

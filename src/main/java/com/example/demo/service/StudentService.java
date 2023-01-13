@@ -6,7 +6,7 @@ import java.util.List;
 
 import com.example.demo.entity.Student;
 
-
+//yassinTalssis
 public interface StudentService {
 	
 	List<Student> getAllStudents();

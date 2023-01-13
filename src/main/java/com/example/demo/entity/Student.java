@@ -10,7 +10,7 @@ import javax.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+//yassinTalssis
 @Entity
 @Data
 @AllArgsConstructor
@@ -34,7 +34,7 @@ public class Student {
 	public Student() {
 		
 	}
-	
+	//yassinTalssis
 	public Student(String firstName, String lastName, String email) {
 		super();
 		this.firstName = firstName;

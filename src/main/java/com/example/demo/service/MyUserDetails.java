@@ -1,8 +1,8 @@
 package com.example.demo.service;
 
-
+//yassinTalssis
 import java.util.*;
- 
+ //yassinTalssis
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -36,7 +36,7 @@ public class MyUserDetails implements UserDetails {
     }
  
     
-   
+   //yassinTalssis
     @Override
     public boolean isAccountNonExpired() {
         return true;

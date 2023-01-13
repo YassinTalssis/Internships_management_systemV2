@@ -27,9 +27,9 @@ public class User {
             )
     private Set<Role> roles = new HashSet<>();
  
-    
+    //yassinTalssis
     public User() {
-    	
+    	//yassinTalssis
     }
     public User(String firstName, String lastName, String email, String password, boolean enabled, Set<Role> roles) {
 		super();
@@ -46,7 +46,7 @@ public class User {
     }
 
 
-
+//yassinTalssis
 	public String getFirstName() {
 		return firstName;
 	}
@@ -99,6 +99,6 @@ public class User {
 	public void setId(Long id) {
 		this.id = id;
 	}
- 
+ //yassinTalssis
     // remaining getters and setters are not shown for brevity
 }

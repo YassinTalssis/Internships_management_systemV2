@@ -1,6 +1,5 @@
 package com.example.demo.repository;
-
-//import java.util.List;
+//yassinTalssis
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -9,7 +8,7 @@ import com.example.demo.entity.Student;
 
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
-	//Aissa Chbaba
+	//yassinTalssis
 	/*@Query("SELECT s FROM Student s WHERE "
 			+ "CONCAT(s.id, s.firstName, s.lastName, s.departement.name)"
 			+" LIKE %?1%")
