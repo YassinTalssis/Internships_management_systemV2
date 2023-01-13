@@ -14,7 +14,7 @@ import com.example.demo.service.UserDetailsServiceImpl;
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
- 
+ 	//YassinTalssis
     @Bean
     public UserDetailsService userDetailsService() {
         return new UserDetailsServiceImpl();

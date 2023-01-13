@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.example.demo.entity.Etablissement;
 
-
+//YassinTalssis
 public interface EtablissementService {
 	List<Etablissement> getAllEtablissement();
 	
